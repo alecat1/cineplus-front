@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Sofia Pro Light";
+    src: url("/assents/fonts/sofiapro-light.otf");
+  }
+  @font-face {
+    font-family: "Sofia Pro Black";
+    src: url("/assents/fonts/SofiaProBlack.ttf");
+  }
+  @font-face {
+    font-family: "Sofia Pro Medium";
+    src: url("/assents/fonts/SofiaProMedium.ttf");
+  }
+  @font-face {
+    font-family: "Sofia Pro Bold";
+    src: url("/assents/fonts/SofiaProSemiBold.ttf");
+  }
+  
+  /** @group container */
+  .container__videos{
+    margin-top: 6%;
+    margin-left: 40%;
+  }
+  /** @group searchbar */
+  .input__search-videos {
+    font-family: "Sofia Pro Light";
+    border: 1px solid #797979;
+    background: #ffffff;
+    display: block;
+    padding: 6px 25px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+  }
+  .select{
+    height: 47px;
+    color: black;
+    margin-top: 3%;
+    width: 100%;
+  }
+  .input__search-videos:focus {
+    border-color: #282828;
+    box-shadow: 0 0 9px #949494;
+  }
+  
+  .input__search-videos:hover {
+    border-color: #282828;
+    box-shadow: 0 0 9px #949494;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  /** @group container video */
+  .card_film{
+   border-radius: 0px 0px 12px 12px !important;
+   margin-top: 1rem;
+   font-family: "Sofia Pro Light" !important;
+   border: solid;
+   width: 90%;
+  }
+  .mx-auto{
+    margin-top: 10%;
+    height: 100px;
+    padding-right: 77%;
+  
+  }
+  .film-row{
+    width: 50%;
+    height: 50% ;
+    display: contents;
+    
+  
+  }
+  .head-row{
+      border: solid  rgb(167, 159, 159);
+      width: 50%;
+      margin-block-end: 1%;
+  }
+  .body-row{
+      margin-block-end: 5%;
+  }
+  .image-film{
+    width: 40%;
+  }
+  .imagen{
+    width: 50%;
+    height: 50%;
+    margin-left: 21%;
+    margin-top: 3%;
+  }
+  .content-film{
+    width: 60%;
+  }
+  .title-film{
+    margin-top: 1%;
+    text-align: center;
+  }
+  .summary-film{
+    height: 410px ;
+  }
+  

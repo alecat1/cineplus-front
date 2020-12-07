@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Sofia Pro Light";
+    src: url("/assents/fonts/sofiapro-light.otf");
+  }
+  @font-face {
+    font-family: "Sofia Pro Black";
+    src: url("/assents/fonts/SofiaProBlack.ttf");
+  }
+  @font-face {
+    font-family: "Sofia Pro Medium";
+    src: url("/assents/fonts/SofiaProMedium.ttf");
+  }
+  @font-face {
+    font-family: "Sofia Pro Bold";
+    src: url("/assents/fonts/SofiaProSemiBold.ttf");
+  }
+  .swal-text {
+    text-align: justify !important;
+  }
+  .login-icon-width {
+    width: 100%;
+  }
+  .input-login {
+    font-family: "Sofia Pro Light";
+    border: 0;
+    background: #ffffff;
+    display: block;
+    margin: 30px auto;
+    padding: 14px 25px;
+    border-radius: 40px;
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .input-login:focus {
+    border-color: none;
+  }
+  .input-login::placeholder {
+    color: #2828289f;
+  }
+  
+  .button-login {
+    font-family: "Sofia Pro Medium";
+    border: 0;
+    background: #00cad4;
+    border-radius: 40px;
+    height: 50px;
+    box-shadow: none;
+    outline: none;
+    color: #ffffff;
+    width: 100%;
+  }
+  .button-login:hover {
+    background: #006e74;
+  }
+  
+  .center-content {
+    padding-bottom: 20%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .titulo{
+    height: 100%;
+    text-align: center;
+  }
+  
+  .buttons-aling--center {
+    align-items: center;
+  }
+  
+  .hiperlink-white {
+    color: #ffffff;
+    font-family: "Sofia Pro Medium";
+  }
+  .hiperlink-white:hover {
+    color: #00cad4;
+  }
+  .icono-prueba {
+    background: url(/assents/icons/bars-solid.svg) no-repeat;
+  }
+  .error {
+    text-align-last: center;
+    color: #ea1d52;
+  }
+  
+  .swal-wide{
+    width: 80% !important;
+  }
+  
+  .swal-wide > .swal-footer > .swal-button-container > .swal-button {
+    background-color: #00b2bb !important;
+    border-color: #00b2bb !important;
+  }
+  
+  .swal-wide > .swal-footer > .swal-button-container > .swal-button:hover {
+      background-color: #008188 !important;
+      border-color: #008188 !important;
+  }
+  .container-banderas{
+    left: 200px;
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    width: 80%;
+    align-items: baseline;
+  }
+  .container-banderas img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 250ms;
+  }
+  .container-banderas img:hover{
+    transform: scale(1.2);
+  }

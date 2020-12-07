@@ -1,0 +1,40 @@
+{
+  "name": "tp-tiktok-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o ",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^1.2.1",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.2",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.4.1",
+    "formik": "^2.1.4",
+    "js-3d-model-viewer": "^0.1.5",
+    "js-file-download": "^0.4.12",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.26.0",
+    "next": "9.3.6",
+    "react": "^16.13.1",
+    "react-3d-viewer": "^1.0.12",
+    "react-bootstrap": "^1.0.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.14.0",
+    "react-modal-image": "^2.5.0",
+    "react-model-viewer": "^0.6.1",
+    "react-moment": "^0.9.7",
+    "react-page-loading": "^1.0.2",
+    "react-pdf": "^4.1.0",
+    "react-select": "^3.1.0",
+    "react-text-highlight": "^0.2.0",
+    "redux": "^4.0.5",
+    "sweetalert": "^2.1.2",
+    "three": "^0.121.1",
+    "video-react": "^0.14.1"
+  },
+  "devDependencies": {}
+}

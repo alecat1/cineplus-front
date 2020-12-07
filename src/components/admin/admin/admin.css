@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+.swal-modal .swal-text {
+  text-align: center;
+}
+
+.container--admin {
+  width: 100%;
+  height: 100%;
+  margin-block-start: 18%;
+}
+
+.margin--container-admin {
+  margin-top: 6% !important;
+}
+.button--aling-admin {
+  position: relative !important;
+  margin-left: 2%;
+}
+
+.card--animation-admin {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.card--animation-admin:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+.button--add-admin {
+  background-color: #00b2bb !important;
+  border-color: #00b2bb !important;
+}
+
+.button--add-admin:hover {
+  background-color: #008188 !important;
+  border-color: #008188 !important;
+}
+
+.button--change-admin{
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+  color: #fff !important;
+}
+
+.button--change-admin:hover{
+  background-color: #4c7caf !important;
+  border-color: #4c7caf !important;
+  color: #fff !important;
+}
+
+
+.card--animation-admin > .card-body > .card-title{
+  font-family: "Sofia Pro Medium" !important;
+}
+
+.card--animation-admin > .card-body > .card-text{
+  font-family: "Sofia Pro Light" !important;
+}
+.card--animation-admin > .card-body > .btn{
+  font-family: "Sofia Pro Light" !important;
+}
+.row-admin{
+  margin-bottom: 5%;
+}
+

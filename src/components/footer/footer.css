@@ -1,0 +1,55 @@
+
+@font-face{
+    font-family: 'Sofia Pro Light';
+    src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face{
+    font-family: 'Sofia Pro Black';
+    src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face{
+    font-family: 'Sofia Pro Medium';
+    src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face{
+    font-family: 'Sofia Pro Bold';
+    src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+
+.FondoFooter{
+  background-color: black;
+  position: fixed;
+  height: 7%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.TTik{
+  padding: 1%;
+  text-align: center;
+  position: fixed;
+  height: 15%;
+  left: 0;
+  bottom: 0;
+  width: 100%;  
+}
+
+.copyr{
+  bottom: 0;
+  color: white;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  text-align: end;
+  padding-right: 20px;
+  font-family: 'Sofia Pro Light';
+  font-size: 80%;
+}
+
+.srcimg{
+  height: 35px; width: 70px;  /* ignore, for demo */
+  transform: translateY(10%);
+}
+
